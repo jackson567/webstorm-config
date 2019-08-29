@@ -105,6 +105,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+B'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Delete">
         <Item>
           <IdeaActionID>$Delete</IdeaActionID>
@@ -151,6 +159,14 @@
           <ShortCut>'Alt+F7'</ShortCut>
           <Description>Find Usages</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Find in Path...">
+        <Item>
+          <IdeaActionID>FindInPath</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F'</ShortCut>
+          <Description>Find in Path...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Forward">
