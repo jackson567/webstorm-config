@@ -113,14 +113,6 @@
           <Count>2</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Declaration">
-        <Item>
-          <IdeaActionID>GotoDeclaration</IdeaActionID>
-          <ShortCut>'Ctrl+B'</ShortCut>
-          <Description>Declaration</Description>
-          <Count>112</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Delete">
         <Item>
           <IdeaActionID>$Delete</IdeaActionID>
@@ -166,7 +158,7 @@
           <IdeaActionID>FindUsages</IdeaActionID>
           <ShortCut>'Alt+F7'</ShortCut>
           <Description>Find Usages</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find in Path...">
@@ -751,6 +743,14 @@
         <Item>
           <IdeaActionID>Annotate</IdeaActionID>
           <Description>Annotate</Description>
+        </Item>
+      </Statistic>
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+B'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>118</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration or Usages">
