@@ -9,7 +9,15 @@
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
   <component name="TodoConfiguration">
+    <multiLine>false</multiLine>
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" pattern="\b(region)\b.*">
+      <option name="FOREGROUND" value="bd188e" />
+      <option name="BACKGROUND" value="89ef19" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="EFFECT_COLOR" value="273222" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
   </component>
 </application>
