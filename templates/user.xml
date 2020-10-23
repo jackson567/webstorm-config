@@ -1,0 +1,15 @@
+<templateSet group="user">
+  <template name="tctrycatch" value=" try {&#10; $start$&#10;    } catch (err: any) {&#10;      AxMessage.alert(err);&#10;    }" description="自定义的trycatch用于 Ax" toReformat="true" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="#region" value="//#region $name1$&#10;$name2$&#10;//#endregion" description="区域注释" toReformat="true" toShortenFQNames="true">
+    <variable name="name1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
