@@ -1,5 +1,6 @@
 <application>
   <component name="TemplateSettings">
+    <defaultShortcut shortcut="CUSTOM" />
     <option name="deletedKeys">
       <list>
         <TemplateKey>
