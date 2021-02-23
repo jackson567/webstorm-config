@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="region" value="//#region&#10;$END$&#10;//#endregion" description="代码块" toReformat="false" toShortenFQNames="true">
+  <template name="region" value="//#region $END$&#10;&#10;//#endregion" description="代码块" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
