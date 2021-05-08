@@ -3,9 +3,10 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*ts,*.vue" />
+    <option name="FILE_MASK" value="*ts,*.vue|*.d.ts" />
     <mask>*.ts,*.vue</mask>
     <mask>*.vue</mask>
     <mask>*ts,*.vue</mask>
+    <mask>*ts,*.vue|*.d.ts</mask>
   </component>
 </application>
