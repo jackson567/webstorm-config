@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="trycatch" value="$start$ async &#10; try {&#10;const res  = await  ;&#10;if(res===null){&#10;      AxMessage.alert('暂无数据');&#10;return;&#10;}&#10;    } catch (err: any) {&#10;      AxMessage.alert(err);&#10;    }" description="自定义的trycatch用于 Ax" toReformat="true" toShortenFQNames="true">
+  <template name="trycatch" value="$start$ async &#10; try {&#10;const res  = await  ;&#10;if(res===null){&#10;       await AxMessage.alert(AxGlobalLang.t('operate.failed'));&#10;return;&#10;}&#10;    } catch (error: any) {&#10;      AxMessage.alert(error);&#10;    }" description="自定义的trycatch用于 Ax" toReformat="true" toShortenFQNames="true">
     <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
