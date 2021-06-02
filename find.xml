@@ -8,7 +8,7 @@
     <mask>*ts,*.vue|*.d.ts</mask>
     <mask>*ts,*.vue</mask>
     <mask>*ts,*.vue |*.d.ts</mask>
-    <mask>*ts,*.vue,!*.d.ts</mask>
     <mask>*.json</mask>
+    <mask>*ts,*.vue,!*.d.ts</mask>
   </component>
 </application>
