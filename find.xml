@@ -7,7 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*ts,*.vue,!*.d.ts" />
+    <option name="FILE_MASK" value="*.scss" />
     <mask>*.ts,*.vue</mask>
     <mask>*.vue</mask>
     <mask>*ts,*.vue|*.d.ts</mask>
@@ -17,7 +17,7 @@
     <mask>*ts,*.vue</mask>
     <mask>!*.js,!*.xml,!*.md</mask>
     <mask>*ts</mask>
-    <mask>*.scss</mask>
     <mask>*ts,*.vue,!*.d.ts</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
