@@ -4,6 +4,9 @@
     <option name="newTranslationDialogX" value="2117" />
     <option name="newTranslationDialogY" value="423" />
     <histories>
+      <item value="manmade" />
+      <item value="estatelabel" />
+      <item value="poilabel" />
       <item value="Clones canvas instance without cloning existing data. This essentially copies canvas dimensions, clipping properties, etc. but leaves data empty (so that you can populate it with your own)&#10;Params:&#10;callback – Receives cloned instance as a first argument" />
       <item value="Converts an object into a HTMLCanvas element" />
       <item value="Indicates if the canvas can fire right click events @type Boolean @since 1.6.5 @default fireRightClick?: boolean;" />
@@ -42,8 +45,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="33" />
-        <entry key="ENGLISH" value="33" />
+        <entry key="CHINESE" value="35" />
+        <entry key="ENGLISH" value="36" />
         <entry key="LATIN" value="1" />
       </map>
     </option>
